@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tentang_buku3PesonaWisataBiak">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="sinopsisbuku"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_back"
+                android:id="@+id/kembali3"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kembali3"
+                android:src="@drawable/sinopsis3"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/bukusinopsis3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bukusinopsis3"
+                android:src="@drawable/line2"
+                android:layout_marginTop="35dp"
+                android:id="@+id/garis5"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garis5"
+                android:src="@drawable/databuku3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/data3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/data3"
+                android:src="@drawable/line2"
+                android:layout_marginTop="15dp"
+                android:id="@+id/garis6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garis6"
+                android:text="Sinopsis Buku"
+                android:fontFamily="@font/poppins_extrabold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:textSize="14sp"
+                android:id="@+id/ceritabuku3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ceritabuku3"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="14sp"
+                android:text="@string/buku3pesonawisatabiak"
+                android:id="@+id/isi_tentang_buku3"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pinjamkan"
+                android:fontFamily="@font/poppins_extrabold"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:layout_below="@id/isi_tentang_buku3"
+                android:background="@drawable/button_lanjutkan"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/HijauSage"
+                android:id="@+id/btn_pinjam2"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

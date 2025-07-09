@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formulir">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_back"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/kembali4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Data Kamu"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/isi_data_kamu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kembali4"
+        android:text="Nama"
+        android:textSize="16sp"
+        android:layout_marginLeft="32dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_nama"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nama"
+        android:text="Id Anggota"
+        android:textSize="16sp"
+        android:layout_marginLeft="32dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:id="@+id/txt_id_anggota"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="32dp"
+        android:layout_below="@id/txt_id_anggota"
+        android:id="@+id/txt_email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_email"
+        android:text="No Telepon"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/txt_no_telpon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_no_telpon"
+        android:text="Tanggal Pinjam"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/txt_tgl_pinjam"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_no_telpon"
+        android:text="Tanggal Kembali"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="210dp"
+        android:id="@+id/txt_tgl_kembali"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint="Masukkan Nama Lengkap"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/isi_nama"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint="Masukan Id Anggota"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/isi_id"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint="Masukan Email"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/isi_email"/>
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint="Masukan No Telepon"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/isi_no_telepon"/>
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="49dp"
+            android:background="@drawable/edit_text"
+            android:hint="Tanggal Peminjaman"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/isi_tgl_pinjam"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:background="@drawable/edit_text"
+        android:hint="Tanggal Pengembalian"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/txt_tgl_kembali"
+        android:id="@+id/isi_tgl_kembali"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_below="@id/txt_tgl_kembali"
+        android:background="@drawable/button_lanjutkan"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="@color/HijauSage"
+        android:id="@+id/btn_konfirmasi"/>
+
+</RelativeLayout>

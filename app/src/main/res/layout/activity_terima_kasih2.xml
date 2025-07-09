@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TerimaKasih2"
+    android:background="@color/HijauSage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diterima1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:id="@+id/gambar_kumis"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil!"
+        android:layout_below="@id/gambar_kumis"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textColor="@color/white"
+        android:id="@+id/txt_berhasil"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data yang telah anda inputkan"
+        android:layout_below="@id/txt_berhasil"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:id="@+id/kata_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="berhasil disimpan."
+        android:layout_below="@id/kata_1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:id="@+id/kata_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kata_2"
+        android:layout_marginTop="35dp"
+        android:width="269dp"
+        android:height="64dp"
+        android:text="Kembali"
+        android:textColor="@color/HijauSage"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:background="@drawable/button_lanjutkan"
+        android:id="@+id/btn_kembali"/>
+
+</RelativeLayout>

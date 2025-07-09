@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/HijauSage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarorg1"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gambar_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar_1"
+        android:text="Halo, Selamat Datang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:id="@+id/text1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:text="Kamu calon konglomerat ya? kamu harus rajin belajar "
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="60dp"
+        android:id="@+id/text2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:text="dan membaca, tapi jangan ditelan sendiri. Berbagilah dengan"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:id="@+id/text3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:text="teman-teman yang tak dapat pendidikan"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:id="@+id/text4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text4"
+        android:layout_marginTop="35dp"
+        android:width="269dp"
+        android:height="64dp"
+        android:text="Lanjutkan"
+        android:textColor="@color/HijauSage"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:background="@drawable/button_lanjutkan"
+        android:id="@+id/btn_Lanjutkan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Lanjutkan"
+        android:text="Pastikan anda membaca syarat dan ketentuan"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="11sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/text5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:text="secara menyeluruh"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="11sp"
+        android:id="@+id/text6"/>
+
+</RelativeLayout>

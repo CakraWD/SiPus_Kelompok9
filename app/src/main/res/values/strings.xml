@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SiPus</string>
+    <string name="huruf_besar">
+        PERJANJIAN - PERJANJIAN DI BAWAH INI ADALAH ANTARA ANDA DAN PT Gramedia Asri Media ("GAM") DAN MENGATUR PENGGUNAAN LAYANAN SIPUS ("LAYANAN") OLEH ANDA. DENGAN MENGGUNAKAN SIPUS, ANDA MENYATAKAN PERSETUJUAN TERHADAP KETENTUAN-KETENTUAN INI. APABILA ANDA TIDAK MENYETUJUI KETENTUAN-KETENTUAN INI, JANGAN GUNAKAN SIPUS.
+    </string>
+
+    <string name="isi_2">
+        SiPus merupakan penyedia Layanan, termasuk layanan-layanan dengan merek perusahaan mitra yang dikembangkan dari SiPus, yang mengizinkan Anda untuk meminjam atau mengakses lisensi konten digital ("Konten"), seperti majalah digital, buku digital, koran digital, dan publikasi lainnya, untuk penggunaan konsumen akhir saja berdasarkan syarat dan ketentuan yang diatur dalam Perjanjian ini.
+    </string>
+
+    <string name="isi_3">
+        Hanya orang berusia 17 tahun atau lebih yang bisa membuat akun. Akun untuk orang berusia di bawah 17 tahun bisa dibuat oleh orang tua atau wali hukum. Anak-anak berusia di bawah 17 tahun harus meninjau Perjanjian ini bersama dengan orang tua atau wali hukum mereka untuk memastikan bahwa anak dan hukum mereka untuk memastikan bahwa anak dan orang tua atau wali hukum tersebut memahaminya.
+        Akun pengguna perusahaan mitra bisa dibuat oleh perusahaan tersebut. Perusahaan mitra harus memastikan bahwa individu yang dibuatkan akun tersebut memahami Perjanjian ini.
+        Penggunaan Layanan memerlukan perangkat yang sesuai, akses internet, dan perangkat lunak tertentu (mungkin dikenakan biaya); mungkin memerlukan pembaruan secara berkala; dan mungkin dipengaruhi oleh kinerja dari faktor-faktor tersebut. Akses internet berkecepatan tinggi sangat direkomendasikan untuk penggunaan biasa. Versi terbaru dari perangkat lunak SiPus direkomendasikan untuk mengakses Layanan dan mungkin diperlukan untuk transaksi-transaksi atau fitur-fitur tertentu dan untuk mengunduh Konten yang sebelumnya telah dibeli atau didapatkan dari Layanan. Anda setuju bahwa pemenuhan persyaratan-persyaratan ini, yang bisa berubah dari waktu ke waktu, merupakan tanggung jawab Anda. Layanan bukan merupakan bagian dari produk atau penawaran apa pun, dan pembelian atau perolehan produk lainnya apa pun tidak akan ditafsirkan sebagai pernyataan atau jaminan akses Anda kedalam Layanan.
+    </string>
+
+    <string name="isi_4">
+        Sebagai pengguna terdaftar dari Layanan, Anda bisa memperoleh atau membuat sebuah akun ("Akun").
+        Jangan mengungkapkan informasi Akun Anda kepada orang lain. Anda sendiri yang akan bertanggung jawab untuk menjaga kerahasiaan serta keamanan Akun Anda, dan atas segala aktivitas yang terjadi pada atau melalui Akun Anda, dan Anda setuju untuk segera memberitahu SiPus apabila terjadi pelanggaran keamanan apa pun atas Akun Anda. SiPus tidak bertanggung jawab atas segala kerugian yang muncul sebagai dari akibat penggunaan tanpa izin Akun Anda.
+        Untuk meminjam dan mengunduh Konten dari Layanan, Anda harus login dengan memasukkan nama pengguna dan kata sandi untuk mengautentikasi Akun Anda atas transaksi tersebut. Setelah Anda mengautentikasi Akun Anda dengan menggunakan nama pengguna dan kata sandi, Anda tidak perlu mengautentikasinya lagi selama beberapa saat ke depan.
+        Anda bisa melakukan login sebagai akun tamu ("Tamu") pada Perangkat OS tertentu untuk menggantikan login Akun. Tamu memiliki akses hanya pada Perangkat asal ketika melakukan login pertama kali, tidak dapat terhubung dengan Perangkat lain, tidak dapat menggunakan Anggaran SiPus Point, tidak dapat melakukan login situs web, tidak dapat mengakses Informasi Akun, dan hanya memiliki akses yang sangat terbatas pada Layanan.
+    </string>
+
+    <string name="buku1metode">
+        Buku dengan judul Metode Penelitian Kuantitatif. Adapun tujuan dari penyusunan buku ini diharapkan dapat dijadikan sebagai pegangan bagi mahasiswa terlepas apa pun jurusan yang ditempuh dan juga bagi para peneliti di lapangan. Buku ini juga cocok untuk menjawab semua skripsi yang sedang ditempuh mahasiswa.
+    </string>
+
+    <string name="buku2ekonomiindustri">
+        Penerbitan buku ekonomi industri ini merupakan salah satu upaya untuk menyediakan referensi bagi mahasiswa, praktisi dan pelaku kegiatan tentang ilmu ekonomi industri. Buku ini membahas organisasi industri dalam ekonomi, bagaimana pasar dapat memengaruhi industri dan bagaimana industri dikelola dan diorganisasi sehingga dapat mencapai efisiensi di tingkat perusahaan, industri dan efisiensi ekonomi nasional secara keseluruhan. Secara spesifik, ekonomi industri menelaah struktur, perilaku dan kinerja baik pasar, perusahaan dan industri. Materi yang dibahas mengacu pada organisasi pasar industri yang terutama menjelaskan mengapa pasar diorganisasi serta bagaimana pengorganisasiannya memengaruhi kinerja pasar industri.
+    </string>
+
+    <string name="buku3pesonawisatabiak">
+        Buku ini memuat informasi tentang koleksi burung dan anggrek serta potensivi John Herman Mampioper ekowisata hutan Taman Burung dan Taman Anggrek Biak sebagai sarana wisata, pendidikan, penelitian dan pengembangan ilmu pengetahuan bagi Masyarakat di Tanah Papua.
+    </string>
+
+    <string-array name="jenis_kelamin_array">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+
+</resources>

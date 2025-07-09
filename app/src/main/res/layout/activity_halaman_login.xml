@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In!"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textSize="48sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:id="@+id/text_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/text_1"
+        android:layout_marginLeft="34dp"
+        android:id="@+id/text_2"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@id/text_2"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/text_3"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text_1"
+        android:padding="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Masukan Email Kamu"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_email"
+            android:background="@drawable/edit_text"/>
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="351dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint="Masukan Password Kamu"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="55dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_3"
+        android:id="@+id/btn_Login"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textSize="20sp"
+        android:background="@drawable/button_lanjutkan"
+        android:backgroundTint="@color/HijauSage"
+        android:layout_marginTop="130dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btn_Login"
+        android:gravity="center"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:id="@+id/text_7"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/HijauSage"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/text_8"/>
+    </LinearLayout>
+</RelativeLayout>
